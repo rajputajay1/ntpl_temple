@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .d-flex.flex-column.justify-content-start.text-center.text-md-start {
+        align-items: center;
+        text-align: center;
+    }
+}

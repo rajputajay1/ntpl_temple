@@ -1,0 +1,47 @@
+.border-custom-color {
+    border-color: #6A1110;
+}
+
+.card {
+    border: none;
+    /* Remove border from the card */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-text {
+    white-space: nowrap; 
+    text-overflow: ellipsis; /* Display ellipsis (...) when text overflows */
+}
+@media (max-width: 575.98px) {
+    .row-cols-sm-2>.col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .card-text {
+        white-space: wrap; 
+        text-overflow: ellipsis; /* Display ellipsis (...) when text overflows */
+    }
+
+    .smaller-image {
+        max-width: 100px;
+        max-height: 100px;
+        /* Reduce space between image and text */
+
+    }
+
+    .inner-image {
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    .fs-5 {
+        font-size: 1rem;
+        /* Adjust text size */
+    }
+}
